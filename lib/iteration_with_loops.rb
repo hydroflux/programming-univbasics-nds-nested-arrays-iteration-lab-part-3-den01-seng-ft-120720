@@ -10,6 +10,7 @@ def join_nested_strings(src)
     while column_index < src[row_index].length do
       if not src[row_index][column_index].integer?
         sentence_array << src[row_index][column_index]
+      end
       column_index += 1
     end
     row_index += 1
