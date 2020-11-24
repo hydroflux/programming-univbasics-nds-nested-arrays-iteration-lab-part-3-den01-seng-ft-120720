@@ -8,6 +8,7 @@ def join_nested_strings(src)
     
     while column_index < src[row_index].length do
       
+      
       column_index += 1
     end
     row_index += 1
