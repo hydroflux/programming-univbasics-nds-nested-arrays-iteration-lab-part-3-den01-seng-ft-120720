@@ -8,7 +8,7 @@ def join_nested_strings(src)
     column_index = 0
     
     while column_index < src[row_index].length do
-      if not src[row_index][column_index].integer?
+      if not src[row_index][column_index].is_a? Integer
         sentence_array << src[row_index][column_index]
       end
       column_index += 1
