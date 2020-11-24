@@ -15,4 +15,5 @@ def join_nested_strings(src)
     row_index += 1
   end
   sentence = sentence_array.join
+  sentence
 end
